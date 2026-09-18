@@ -1,0 +1,7 @@
+{
+  "name": "Haramain Connect",
+  "description": "Layanan pemesanan kuota roaming resmi Umrah & Haji Haramain Connect untuk operator Telkomsel, Indosat, Tri, XL, dan by.U lebih murah dari aplikasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

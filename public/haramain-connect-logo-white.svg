@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 125" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Gradient for Golden Crescent -->
+    <linearGradient id="crescentGoldWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="35%" stop-color="#f59e0b" />
+      <stop offset="70%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+
+    <!-- Gradient for Kiswah Band -->
+    <linearGradient id="kiswahGoldWhite" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <!-- Gradient for Connect Text -->
+    <linearGradient id="connectGoldWhite" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fcd34d" />
+      <stop offset="45%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <filter id="subtleGlowDark" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- EMBLEM GROUP -->
+  <g id="logo-emblem-white" filter="url(#subtleGlowDark)">
+    <!-- 3 Wi-Fi Signal Arcs in Bright Emerald -->
+    <!-- Inner Arc -->
+    <path d="M 49 43 A 13.5 13.5 0 0 1 71 43" 
+          stroke="#10b981" stroke-width="5" stroke-linecap="round" fill="none" />
+    <!-- Middle Arc -->
+    <path d="M 41.5 35 A 22.5 22.5 0 0 1 78.5 35" 
+          stroke="#10b981" stroke-width="5.5" stroke-linecap="round" fill="none" />
+    <!-- Outer Arc -->
+    <path d="M 34 26.5 A 31.5 31.5 0 0 1 86 26.5" 
+          stroke="#10b981" stroke-width="6" stroke-linecap="round" fill="none" />
+
+    <!-- 3D Isometric Ka'bah -->
+    <!-- Top Face -->
+    <polygon points="60,52 78,61 60,70 42,61" fill="#334155" />
+    <!-- Left Face -->
+    <polygon points="42,61 60,70 60,97 42,88" fill="#1e293b" />
+    <!-- Right Face -->
+    <polygon points="60,70 78,61 78,88 60,97" fill="#0f172a" />
+
+    <!-- Golden Kiswah Belt (Band) -->
+    <!-- Left Face Belt -->
+    <polygon points="42,70 60,79 60,84 42,75" fill="url(#kiswahGoldWhite)" />
+    <!-- Right Face Belt -->
+    <polygon points="60,79 78,70 78,75 60,84" fill="url(#kiswahGoldWhite)" />
+
+    <!-- Golden Crescent Cradling Ka'bah -->
+    <path d="M 15 74 C 14 97, 34 116, 60 116 C 86 116, 106 97, 105 74 C 104 92, 85 108, 60 108 C 35 108, 16 92, 15 74 Z" 
+          fill="url(#crescentGoldWhite)" />
+  </g>
+
+  <!-- LOGO TEXT (Right side) for Dark Background -->
+  <g id="logo-text-white">
+    <text x="122" y="58" 
+          font-family="'Plus Jakarta Sans', 'Poppins', 'Segoe UI', system-ui, -apple-system, sans-serif" 
+          font-size="52" 
+          font-weight="900" 
+          letter-spacing="-1.5" 
+          fill="#ffffff">Haramain</text>
+
+    <text x="122" y="108" 
+          font-family="'Plus Jakarta Sans', 'Poppins', 'Segoe UI', system-ui, -apple-system, sans-serif" 
+          font-size="52" 
+          font-weight="900" 
+          letter-spacing="-1.5" 
+          fill="url(#connectGoldWhite)">Connect</text>
+  </g>
+</svg>
